@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="./A5.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<style>
+  .error-message{
+    color: red;
+  }
+</style>
+<body>
+  
+
+<form id="myForm">
+  <h1>Registration Form</h1>
+  <!-- <div id="d">  -->
+    <div class="input">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" >
+    <div class="error-message" id="nameError"></div>
+  </div>
+  <div class="input">
+    <label for="dob">DOB:</label>
+    <input type="date" name="dob" id="dob">
+    <div class="error-message" id="dobError"></div></div>
+
+
+    <div class="input">
+    <label for="mail">Email:</label>
+    <input type="text" name="mail" id="mail">
+    <div class="error-message" id="emailError"></div></div>
+
+
+    <div class="input">
+
+    <label for="gender">Gender:</label>
+    
+      <input type="radio" name="gender" id="genderm">Male
+    <input type="radio" name="gender" id="genderf">female
+    <div class="error-message" id="genderError"></div></div>
+
+    <div class="input">
+
+    <label for="number">Number:</label>
+    <input type="text" name="number" id="number">
+    <div class="error-message" id="numberError"></div>
+  </div>
+
+
+<div class="input">
+    <label for="qual">Qualification:</label>
+    <input type="checkbox" name="qual" id="qual">B.E
+    <input type="checkbox" name="qual" id="qual1">B.TECH
+    <input type="checkbox" name="qual" id="qual2">BBA
+    <input type="checkbox" name="qual" id="qual3">MBA
+    <input type="checkbox" name="qual" id="qual4">MCA
+    <div class="error-message" id="qualError"></div></div>
+
+    <div class="input">
+      <label for="Blood">BloodGroup:</label>
+      <input type="text" name="blood" id="blood">
+      <div class="error-message" id="bloodError"></div>
+    </div>
+
+    <!-- <div class="input">
+      <label for="loc">Location:</label>
+      <select name="City" id="city">
+        <option value="0" >Select</option>
+        <option value="1" >Villupuram</option>
+        <option value="2" >Chennai</option>
+        <option value="3" >Coimbatore</option>
+        <option value="4" >Thanjavur</option>
+        <option value="5" >Salem</option>
+      </select>
+      <div class="error-message" id="cityError"></div>
+    </div> -->
+    <!-- <div class="input">
+      <label for="country">Country:</label>
+  <select id="country" name="country"></select>
+
+  <label for="state">State:</label>
+  <select id="state" name="state" disabled></select>
+
+  <label for="city">City:</label>
+  <select id="city" name="city" disabled></select>
+            <div class="error-message" name="locerror" id="locError" ></div></div>
+         -->
+    <input id="but" type="submit" value="submit"  ></input>
+<!-- <button type="reset">reset</button> -->
+    
+</form>
+<!-- <div class="tb">
+    <table id="dataTable" border="1">
+        <tr>
+            <th>Name</th>z
+            <th>Dob</th>
+            <th>mail</th>
+            <th>gender</th>
+            <th>number</th>
+            <th>qualification</th>
+            <th>BloodGroup</th>
+        </tr>
+    </table>
+</div> -->
+<script src="./A6.js"></script>
+</body>
+</html>

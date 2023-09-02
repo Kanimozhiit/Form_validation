@@ -1,0 +1,43 @@
+#myForm{
+    width: 400px;
+    margin: 30vh auto 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+body{
+    background-color: burlywood;
+    background-attachment: fixed;
+    margin: 0;
+}
+/* #dataTable{
+    width: 400px;
+    margin: 30vh auto 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+} */
+.input input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 1px;
+    border: 1px solid black;
+}
+.input{
+    /* display:inline-flex;
+    flex-direction: row; */
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+
+/* #but{ */
+    /* background-color: aqua;
+    margin: 1vh ;
+    color: black;
+    width */
+/* } */
